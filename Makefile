@@ -1,12 +1,12 @@
 # This Makefile is for the Catalyst::Helper::View::SemanticUI extension to perl.
 #
 # It was generated automatically by MakeMaker version
-# 7.24 (Revision: 72400) from the contents of
+# 7.0402 (Revision: 70402) from the contents of
 # Makefile.PL. Don't edit this file, edit Makefile.PL instead.
 #
 #       ANY CHANGES MADE HERE WILL BE LOST!
 #
-#   MakeMaker ARGV: ()
+#   MakeMaker ARGV: (q[--help])
 #
 
 #   MakeMaker Parameters:
@@ -24,7 +24,7 @@
 #     NO_META => q[1]
 #     PREREQ_PM => { Catalyst=>q[5.7], Catalyst::View::TT=>q[0], ExtUtils::MakeMaker=>q[6.59], File::ShareDir=>q[0], Path::Class=>q[0], Template=>q[0], Test::More=>q[0], Test::Pod=>q[0] }
 #     TEST_REQUIRES => {  }
-#     VERSION => q[0.0001]
+#     VERSION => q[0.0002]
 #     VERSION_FROM => q[lib/Catalyst/Helper/View/SemanticUI.pm]
 #     dist => {  }
 #     realclean => { FILES=>q[MYMETA.yml] }
@@ -35,7 +35,7 @@
 
 # --- MakeMaker const_config section:
 
-# These definitions are from config.sh (via /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux/Config.pm).
+# These definitions are from config.sh (via /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/x86_64-linux/Config.pm).
 # They may have been overridden via Makefile.PL or on the command line.
 AR = ar
 CC = cc
@@ -52,10 +52,10 @@ LIBC = libc-2.23.so
 LIB_EXT = .a
 OBJ_EXT = .o
 OSNAME = linux
-OSVERS = 4.4.0-62-generic
+OSVERS = 4.4.0-93-generic
 RANLIB = :
-SITELIBEXP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.3
-SITEARCHEXP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.3/x86_64-linux
+SITELIBEXP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.4
+SITEARCHEXP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.4/x86_64-linux
 SO = so
 VENDORARCHEXP = 
 VENDORLIBEXP = 
@@ -67,11 +67,11 @@ DIRFILESEP = /
 DFSEP = $(DIRFILESEP)
 NAME = Catalyst::Helper::View::SemanticUI
 NAME_SYM = Catalyst_Helper_View_SemanticUI
-VERSION = 0.0001
+VERSION = 0.0002
 VERSION_MACRO = VERSION
-VERSION_SYM = 0_0001
+VERSION_SYM = 0_0002
 DEFINE_VERSION = -D$(VERSION_MACRO)=\"$(VERSION)\"
-XS_VERSION = 0.0001
+XS_VERSION = 0.0002
 XS_VERSION_MACRO = XS_VERSION
 XS_DEFINE_VERSION = -D$(XS_VERSION_MACRO)=\"$(XS_VERSION)\"
 INST_ARCHLIB = blib/arch
@@ -88,15 +88,15 @@ PREFIX = $(SITEPREFIX)
 PERLPREFIX = /home/ferz/perl5/perlbrew/perls/perl-5.22.2
 SITEPREFIX = /home/ferz/perl5/perlbrew/perls/perl-5.22.2
 VENDORPREFIX = 
-INSTALLPRIVLIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3
+INSTALLPRIVLIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4
 DESTINSTALLPRIVLIB = $(DESTDIR)$(INSTALLPRIVLIB)
-INSTALLSITELIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.3
+INSTALLSITELIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.4
 DESTINSTALLSITELIB = $(DESTDIR)$(INSTALLSITELIB)
 INSTALLVENDORLIB = 
 DESTINSTALLVENDORLIB = $(DESTDIR)$(INSTALLVENDORLIB)
-INSTALLARCHLIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux
+INSTALLARCHLIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/x86_64-linux
 DESTINSTALLARCHLIB = $(DESTDIR)$(INSTALLARCHLIB)
-INSTALLSITEARCH = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.3/x86_64-linux
+INSTALLSITEARCH = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.4/x86_64-linux
 DESTINSTALLSITEARCH = $(DESTDIR)$(INSTALLSITEARCH)
 INSTALLVENDORARCH = 
 DESTINSTALLVENDORARCH = $(DESTDIR)$(INSTALLVENDORARCH)
@@ -125,15 +125,15 @@ DESTINSTALLSITEMAN3DIR = $(DESTDIR)$(INSTALLSITEMAN3DIR)
 INSTALLVENDORMAN3DIR = 
 DESTINSTALLVENDORMAN3DIR = $(DESTDIR)$(INSTALLVENDORMAN3DIR)
 PERL_LIB =
-PERL_ARCHLIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux
-PERL_ARCHLIBDEP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux
+PERL_ARCHLIB = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/x86_64-linux
+PERL_ARCHLIBDEP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/x86_64-linux
 LIBPERL_A = libperl.a
 FIRST_MAKEFILE = Makefile
 MAKEFILE_OLD = Makefile.old
 MAKE_APERL_FILE = Makefile.aperl
 PERLMAINCC = $(CC)
-PERL_INC = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux/CORE
-PERL_INCDEP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux/CORE
+PERL_INC = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/x86_64-linux/CORE
+PERL_INCDEP = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/x86_64-linux/CORE
 PERL = "/home/ferz/perl5/perlbrew/perls/perl-5.22.2/bin/perl" "-Iinc"
 FULLPERL = "/home/ferz/perl5/perlbrew/perls/perl-5.22.2/bin/perl" "-Iinc"
 ABSPERL = $(PERL)
@@ -148,9 +148,9 @@ PERM_DIR = 755
 PERM_RW = 644
 PERM_RWX = 755
 
-MAKEMAKER   = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/site_perl/5.22.3/ExtUtils/MakeMaker.pm
-MM_VERSION  = 7.24
-MM_REVISION = 72400
+MAKEMAKER   = /home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.4/ExtUtils/MakeMaker.pm
+MM_VERSION  = 7.0402
+MM_REVISION = 70402
 
 # FULLEXT = Pathname for extension directory (eg Foo/Bar/Oracle).
 # BASEEXT = Basename part of FULLEXT. May be just equal FULLEXT. (eg Oracle)
@@ -198,9 +198,12 @@ PERL_ARCHIVE_AFTER =
 
 TO_INST_PM = lib/Catalyst/Helper/View/SemanticUI.pm
 
+PM_TO_BLIB = lib/Catalyst/Helper/View/SemanticUI.pm \
+	blib/lib/Catalyst/Helper/View/SemanticUI.pm
+
 
 # --- MakeMaker platform_constants section:
-MM_Unix_VERSION = 7.24
+MM_Unix_VERSION = 7.0402
 PERL_MALLOC_DEF = -DPERL_EXTMALLOC_DEF -Dmalloc=Perl_malloc -Dfree=Perl_mfree -Drealloc=Perl_realloc -Dcalloc=Perl_calloc
 
 
@@ -266,7 +269,7 @@ RCS_LABEL = rcs -Nv$(VERSION_SYM): -q
 DIST_CP = best
 DIST_DEFAULT = tardist
 DISTNAME = Catalyst-Helper-View-SemanticUI
-DISTVNAME = Catalyst-Helper-View-SemanticUI-0.0001
+DISTVNAME = Catalyst-Helper-View-SemanticUI-0.0002
 
 
 # --- MakeMaker macro section:
@@ -291,15 +294,13 @@ DISTVNAME = Catalyst-Helper-View-SemanticUI-0.0001
 
 PASTHRU = LIBPERL_A="$(LIBPERL_A)"\
 	LINKTYPE="$(LINKTYPE)"\
-	PREFIX="$(PREFIX)"\
-	PASTHRU_DEFINE='$(DEFINE) $(PASTHRU_DEFINE)'\
-	PASTHRU_INC='$(INC) $(PASTHRU_INC)'
+	PREFIX="$(PREFIX)"
 
 
 # --- MakeMaker special_targets section:
 .SUFFIXES : .xs .c .C .cpp .i .s .cxx .cc $(OBJ_EXT)
 
-.PHONY: all config static dynamic test linkext manifest blibdirs clean realclean disttest distdir pure_all subdirs clean_subdirs makemakerdflt manifypods realclean_subdirs subdirs_dynamic subdirs_pure_nolink subdirs_static subdirs-test_dynamic subdirs-test_static test_dynamic test_static
+.PHONY: all config static dynamic test linkext manifest blibdirs clean realclean disttest distdir
 
 
 
@@ -316,9 +317,8 @@ PASTHRU = LIBPERL_A="$(LIBPERL_A)"\
 all :: pure_all manifypods
 	$(NOECHO) $(NOOP)
 
-pure_all :: config pm_to_blib subdirs linkext
-	$(NOECHO) $(NOOP)
 
+pure_all :: config pm_to_blib subdirs linkext
 	$(NOECHO) $(NOOP)
 
 subdirs :: $(MYEXTLIB)
@@ -383,7 +383,7 @@ $(INST_MAN3DIR)$(DFSEP).exists :: Makefile.PL
 
 # --- MakeMaker linkext section:
 
-linkext :: dynamic
+linkext :: $(LINKTYPE)
 	$(NOECHO) $(NOOP)
 
 
@@ -397,7 +397,7 @@ BOOTSTRAP =
 
 # --- MakeMaker dynamic section:
 
-dynamic :: $(FIRST_MAKEFILE) config $(INST_BOOT) $(INST_DYNAMIC)
+dynamic :: $(FIRST_MAKEFILE) $(BOOTSTRAP) $(INST_DYNAMIC)
 	$(NOECHO) $(NOOP)
 
 
@@ -421,7 +421,7 @@ POD2MAN_EXE = $(PERLRUN) "-MExtUtils::Command::MM" -e pod2man "--"
 POD2MAN = $(POD2MAN_EXE)
 
 
-manifypods : pure_all config  \
+manifypods : pure_all  \
 	lib/Catalyst/Helper/View/SemanticUI.pm
 	$(NOECHO) $(POD2MAN) --section=3 --perm_rw=$(PERM_RW) -u \
 	  lib/Catalyst/Helper/View/SemanticUI.pm $(INST_MAN3DIR)/Catalyst::Helper::View::SemanticUI.$(MAN3EXT) 
@@ -474,14 +474,13 @@ clean :: clean_subdirs
 
 
 # --- MakeMaker realclean_subdirs section:
-# so clean is forced to complete before realclean_subdirs runs
-realclean_subdirs : clean
+realclean_subdirs :
 	$(NOECHO) $(NOOP)
 
 
 # --- MakeMaker realclean section:
 # Delete temporary files (via clean) and also delete dist files
-realclean purge :: realclean_subdirs
+realclean purge ::  clean realclean_subdirs
 	- $(RM_F) \
 	  $(FIRST_MAKEFILE) $(MAKEFILE_OLD) 
 	- $(RM_RF) \
@@ -569,36 +568,36 @@ distdir : create_distdir
 
 # --- MakeMaker dist_test section:
 disttest : distdir
-	cd $(DISTVNAME) && $(ABSPERLRUN) Makefile.PL 
+	cd $(DISTVNAME) && $(ABSPERLRUN) Makefile.PL "--help"
 	cd $(DISTVNAME) && $(MAKE) $(PASTHRU)
 	cd $(DISTVNAME) && $(MAKE) test $(PASTHRU)
 
 
 
 # --- MakeMaker dist_ci section:
+
 ci :
-	$(ABSPERLRUN) -MExtUtils::Manifest=maniread -e '@all = sort keys %{ maniread() };' \
-	  -e 'print(qq{Executing $(CI) @all\n});' \
-	  -e 'system(qq{$(CI) @all}) == 0 or die $$!;' \
-	  -e 'print(qq{Executing $(RCS_LABEL) ...\n});' \
-	  -e 'system(qq{$(RCS_LABEL) @all}) == 0 or die $$!;' --
+	$(PERLRUN) "-MExtUtils::Manifest=maniread" \
+	  -e "@all = keys %{ maniread() };" \
+	  -e "print(qq{Executing $(CI) @all\n}); system(qq{$(CI) @all});" \
+	  -e "print(qq{Executing $(RCS_LABEL) ...\n}); system(qq{$(RCS_LABEL) @all});"
 
 
 # --- MakeMaker distmeta section:
 distmeta : create_distdir metafile
 	$(NOECHO) cd $(DISTVNAME) && $(ABSPERLRUN) -MExtUtils::Manifest=maniadd -e 'exit unless -e q{META.yml};' \
 	  -e 'eval { maniadd({q{META.yml} => q{Module YAML meta-data (added by MakeMaker)}}) }' \
-	  -e '    or die "Could not add META.yml to MANIFEST: $${'\''@'\''}"' --
+	  -e '    or print "Could not add META.yml to MANIFEST: $$$${'\''@'\''}\n"' --
 	$(NOECHO) cd $(DISTVNAME) && $(ABSPERLRUN) -MExtUtils::Manifest=maniadd -e 'exit unless -f q{META.json};' \
 	  -e 'eval { maniadd({q{META.json} => q{Module JSON meta-data (added by MakeMaker)}}) }' \
-	  -e '    or die "Could not add META.json to MANIFEST: $${'\''@'\''}"' --
+	  -e '    or print "Could not add META.json to MANIFEST: $$$${'\''@'\''}\n"' --
 
 
 
 # --- MakeMaker distsignature section:
-distsignature : distmeta
+distsignature : create_distdir
 	$(NOECHO) cd $(DISTVNAME) && $(ABSPERLRUN) -MExtUtils::Manifest=maniadd -e 'eval { maniadd({q{SIGNATURE} => q{Public-key signature (added by MakeMaker)}}) }' \
-	  -e '    or die "Could not add SIGNATURE to MANIFEST: $${'\''@'\''}"' --
+	  -e '    or print "Could not add SIGNATURE to MANIFEST: $$$${'\''@'\''}\n"' --
 	$(NOECHO) cd $(DISTVNAME) && $(TOUCH) SIGNATURE
 	cd $(DISTVNAME) && cpansign -s
 
@@ -674,7 +673,7 @@ doc_perl_install :: all
 	-$(NOECHO) $(MKPATH) "$(DESTINSTALLARCHLIB)"
 	-$(NOECHO) $(DOC_INSTALL) \
 		"Module" "$(NAME)" \
-		"installed into" "$(INSTALLPRIVLIB)" \
+		"installed into" $(INSTALLPRIVLIB) \
 		LINKTYPE "$(LINKTYPE)" \
 		VERSION "$(VERSION)" \
 		EXE_FILES "$(EXE_FILES)" \
@@ -685,7 +684,7 @@ doc_site_install :: all
 	-$(NOECHO) $(MKPATH) "$(DESTINSTALLARCHLIB)"
 	-$(NOECHO) $(DOC_INSTALL) \
 		"Module" "$(NAME)" \
-		"installed into" "$(INSTALLSITELIB)" \
+		"installed into" $(INSTALLSITELIB) \
 		LINKTYPE "$(LINKTYPE)" \
 		VERSION "$(VERSION)" \
 		EXE_FILES "$(EXE_FILES)" \
@@ -696,7 +695,7 @@ doc_vendor_install :: all
 	-$(NOECHO) $(MKPATH) "$(DESTINSTALLARCHLIB)"
 	-$(NOECHO) $(DOC_INSTALL) \
 		"Module" "$(NAME)" \
-		"installed into" "$(INSTALLVENDORLIB)" \
+		"installed into" $(INSTALLVENDORLIB) \
 		LINKTYPE "$(LINKTYPE)" \
 		VERSION "$(VERSION)" \
 		EXE_FILES "$(EXE_FILES)" \
@@ -734,7 +733,7 @@ $(FIRST_MAKEFILE) : Makefile.PL $(CONFIGDEP)
 	-$(NOECHO) $(RM_F) $(MAKEFILE_OLD)
 	-$(NOECHO) $(MV)   $(FIRST_MAKEFILE) $(MAKEFILE_OLD)
 	- $(MAKE) $(USEMAKEFILE) $(MAKEFILE_OLD) clean $(DEV_NULL)
-	$(PERLRUN) Makefile.PL 
+	$(PERLRUN) Makefile.PL "--help"
 	$(NOECHO) $(ECHO) "==> Your Makefile has been rebuilt. <=="
 	$(NOECHO) $(ECHO) "==> Please rerun the $(MAKE) command.  <=="
 	$(FALSE)
@@ -746,20 +745,21 @@ $(FIRST_MAKEFILE) : Makefile.PL $(CONFIGDEP)
 # --- MakeMaker makeaperl section ---
 MAP_TARGET    = perl
 FULLPERL      = "/home/ferz/perl5/perlbrew/perls/perl-5.22.2/bin/perl"
-MAP_PERLINC   = "-Iblib/arch" "-Iblib/lib" "-I/home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3/x86_64-linux" "-I/home/ferz/perl5/perlbrew/perls/perl-5.22.2/lib/5.22.3"
 
-$(MAP_TARGET) :: $(MAKE_APERL_FILE)
+$(MAP_TARGET) :: static $(MAKE_APERL_FILE)
 	$(MAKE) $(USEMAKEFILE) $(MAKE_APERL_FILE) $@
 
-$(MAKE_APERL_FILE) : static $(FIRST_MAKEFILE) pm_to_blib
+$(MAKE_APERL_FILE) : $(FIRST_MAKEFILE) pm_to_blib
 	$(NOECHO) $(ECHO) Writing \"$(MAKE_APERL_FILE)\" for this $(MAP_TARGET)
 	$(NOECHO) $(PERLRUNINST) \
 		Makefile.PL DIR="" \
 		MAKEFILE=$(MAKE_APERL_FILE) LINKTYPE=static \
-		MAKEAPERL=1 NORECURS=1 CCCDLFLAGS=
+		MAKEAPERL=1 NORECURS=1 CCCDLFLAGS= \
+		--help
 
 
 # --- MakeMaker test section:
+
 TEST_VERBOSE=0
 TEST_TYPE=test_$(LINKTYPE)
 TEST_FILE = test.pl
@@ -767,73 +767,53 @@ TEST_FILES = t/pod.t
 TESTDB_SW = -d
 
 testdb :: testdb_$(LINKTYPE)
+
+test :: $(TEST_TYPE) subdirs-test
+
+subdirs-test ::
 	$(NOECHO) $(NOOP)
 
-test :: $(TEST_TYPE)
-	$(NOECHO) $(NOOP)
 
-# Occasionally we may face this degenerate target:
-test_ : test_dynamic
-	$(NOECHO) $(NOOP)
-
-subdirs-test_dynamic :: dynamic pure_all
-
-test_dynamic :: subdirs-test_dynamic
+test_dynamic :: pure_all
 	PERL_DL_NONLAZY=1 $(FULLPERLRUN) "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness($(TEST_VERBOSE), 'inc', '$(INST_LIB)', '$(INST_ARCHLIB)')" $(TEST_FILES)
 
-testdb_dynamic :: dynamic pure_all
+testdb_dynamic :: pure_all
 	PERL_DL_NONLAZY=1 $(FULLPERLRUN) $(TESTDB_SW) "-Iinc" "-I$(INST_LIB)" "-I$(INST_ARCHLIB)" $(TEST_FILE)
 
-subdirs-test_static :: static pure_all
+test_ : test_dynamic
 
-test_static :: subdirs-test_static
-	PERL_DL_NONLAZY=1 $(FULLPERLRUN) "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness($(TEST_VERBOSE), '$(INST_LIB)', '$(INST_ARCHLIB)')" $(TEST_FILES)
-
-testdb_static :: static pure_all
-	PERL_DL_NONLAZY=1 $(FULLPERLRUN) $(TESTDB_SW) "-Iinc" "-I$(INST_LIB)" "-I$(INST_ARCHLIB)" $(TEST_FILE)
-
+test_static :: test_dynamic
+testdb_static :: testdb_dynamic
 
 
 # --- MakeMaker ppd section:
 # Creates a PPD (Perl Package Description) for a binary distribution.
 ppd :
-	$(NOECHO) $(ECHO) '<SOFTPKG NAME="Catalyst-Helper-View-SemanticUI" VERSION="0.0001">' > Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '    <ABSTRACT>Helper for Semantic UI and TT view which builds a skeleton web site</ABSTRACT>' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '    <AUTHOR>Ferruccio Zamuner &lt;nonsolosoft@diff.org&gt;</AUTHOR>' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <PERLCORE VERSION="5,012001,0,0" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Catalyst::" VERSION="5.7" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Catalyst::View::TT" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <REQUIRE NAME="File::ShareDir" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Path::Class" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Template::" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <ARCHITECTURE NAME="x86_64-linux-5.22" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '        <CODEBASE HREF="" />' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '    </IMPLEMENTATION>' >> Catalyst-Helper-View-SemanticUI.ppd
-	$(NOECHO) $(ECHO) '</SOFTPKG>' >> Catalyst-Helper-View-SemanticUI.ppd
+	$(NOECHO) $(ECHO) '<SOFTPKG NAME="$(DISTNAME)" VERSION="$(VERSION)">' > $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '    <ABSTRACT>Helper for Semantic UI and TT view which builds a skeleton web site</ABSTRACT>' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '    <AUTHOR>Ferruccio Zamuner &lt;nonsolosoft@diff.org&gt;</AUTHOR>' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '    <IMPLEMENTATION>' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <PERLCORE VERSION="5,012001,0,0" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Catalyst::" VERSION="5.7" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Catalyst::View::TT" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <REQUIRE NAME="File::ShareDir" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Path::Class" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <REQUIRE NAME="Template::" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <ARCHITECTURE NAME="x86_64-linux-5.22" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '        <CODEBASE HREF="" />' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '    </IMPLEMENTATION>' >> $(DISTNAME).ppd
+	$(NOECHO) $(ECHO) '</SOFTPKG>' >> $(DISTNAME).ppd
 
 
 # --- MakeMaker pm_to_blib section:
 
 pm_to_blib : $(FIRST_MAKEFILE) $(TO_INST_PM)
 	$(NOECHO) $(ABSPERLRUN) -MExtUtils::Install -e 'pm_to_blib({@ARGV}, '\''$(INST_LIB)/auto'\'', q[$(PM_FILTER)], '\''$(PERM_DIR)'\'')' -- \
-	  'lib/Catalyst/Helper/View/SemanticUI.pm' 'blib/lib/Catalyst/Helper/View/SemanticUI.pm' 
+	  lib/Catalyst/Helper/View/SemanticUI.pm blib/lib/Catalyst/Helper/View/SemanticUI.pm 
 	$(NOECHO) $(TOUCH) pm_to_blib
 
 
 # --- MakeMaker selfdocument section:
-
-# here so even if top_targets is overridden, these will still be defined
-# gmake will silently still work if any are .PHONY-ed but nmake won't
-
-static ::
-	$(NOECHO) $(NOOP)
-
-dynamic ::
-	$(NOECHO) $(NOOP)
-
-config ::
-	$(NOECHO) $(NOOP)
 
 
 # --- MakeMaker postamble section:

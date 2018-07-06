@@ -4,7 +4,7 @@
       "Ferruccio Zamuner <nonsolosoft@diff.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.16, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Module::Install version 1.16, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "perl_5"
    ],
@@ -53,6 +53,5 @@
          "url" : "https://github.com/ferz/Catalyst--Helper--View--SemanticUI"
       }
    },
-   "version" : "0.0001",
-   "x_serialization_backend" : "JSON::PP version 2.27300_01"
+   "version" : "0.0002"
 }
